@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Форма обратной связи</title>
+	<link href="obrat.js" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form id="main-form" class="forma">
+        <h3>Форма обратной связи</h3>
+        <p class="text_option">Имя</p><input type="text" name="name" id="usern" class="text_input" placeholder="Введите имя и отчество">
+        <p class="text_option">Email</p><input type="text" name="email" id="usere" class="text_input" placeholder="Ваш Email">
+        <p class="text_option">Телефон</p><input type="text" name="phone" id="userp" class="text_input" placeholder="Ваш телефон">
+        <p class="text_option">Сообщение</p><textarea class="text_input" name="sms" id="userm" name="comment" cols="40" rows="4" placeholder="Введите сообщение"></textarea></p>
+        <p id="errors" style="color:red">Не все поля заполнены</p>
+        <input type="submit" class="btn" id="btn" value="Отправить">
+    </form>
+    <div id="comment" >
+        <h2>Коментарии</h2>
+    </div>
+    <script src="obrat.js"></script>
+</body>
+</html>
